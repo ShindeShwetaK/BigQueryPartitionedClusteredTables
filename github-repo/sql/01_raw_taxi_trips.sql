@@ -1,0 +1,2 @@
+-- Table 1 is loaded from dataset/*.parquet by python -m src.build_tables
+-- (src/load_raw.py). No partition, no clustering. Original TLC column names.

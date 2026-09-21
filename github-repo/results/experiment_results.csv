@@ -1,0 +1,10 @@
+test_id,test_name,table_name,partitioned,clustered,bytes_processed,bytes_processed_pretty,elapsed_ms,slot_ms,estimated_on_demand_usd,job_id,row_count
+A,Date filter,curated_taxi_trips,no,no,130591968,124.54 MiB,258,365,0.000742,7520bc5d-de63-4fb9-84e9-c5e0dbe71945,1
+A,Date filter,partitioned_taxi_trips,yes,no,43239536,41.24 MiB,394,248,0.000246,97385389-9f8e-413a-b1da-e940d8fe2ed0,1
+A,Date filter,optimized_taxi_trips,yes,yes,43239536,41.24 MiB,387,323,0.000246,aadce23a-838d-4c93-8e11-0bed2989d92f,1
+B,Location filter,curated_taxi_trips,no,no,65295984,62.27 MiB,265,457,0.000371,58d61295-0856-43c6-ac32-3694b1f96e3a,1
+B,Location filter,partitioned_taxi_trips,yes,no,65295984,62.27 MiB,1113,627,0.000371,7be3018c-2b3e-4945-a152-7c6b9804465a,1
+B,Location filter,optimized_taxi_trips,yes,yes,58978720,56.25 MiB,766,1197,0.000335,3d54f919-2de4-4487-8d15-b27854dc0a46,1
+C,Date + location,curated_taxi_trips,no,no,195887952,186.81 MiB,266,414,0.001113,18e67b4d-4617-46fa-a0bd-7d9034169aae,1
+C,Date + location,partitioned_taxi_trips,yes,no,64859304,61.85 MiB,338,233,0.000369,7e8dfa0e-1656-427e-a87d-1ccbbe3089c9,1
+C,Date + location,optimized_taxi_trips,yes,yes,59472840,56.72 MiB,216,351,0.000338,27a7b7f5-5c85-4e21-b08a-89e4cd12beff,1
